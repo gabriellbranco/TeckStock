@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+form {
+  background: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: grid;
+  gap: 8px;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.btn-excluir {
+  background: #dc2626;
+  margin-left: 6px;
+}
+
+.btn-cancelar {
+  background: #64748b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background: #eee;
+}
+
+.paginacao {
+  margin-top: 15px;
+  display: flex;
+  gap: 6px;
+}
+
+.pagina-ativa {
+  background: #1e3a8a;
+  font-weight: bold;
+}
+
+.erro {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 10px;
+  margin-bottom: 15px;
+}
